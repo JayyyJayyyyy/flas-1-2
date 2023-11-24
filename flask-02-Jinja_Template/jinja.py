@@ -8,7 +8,7 @@ def head():
 
 @app.route('/cohort16')
 def number():
-    num1=12
+    num1=1
     num2=10
     return render_template("body.html",alue1=num1, value2=num2, sum=num1+num2)
 
